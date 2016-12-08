@@ -1,0 +1,12 @@
+/* CSS declarations go here color: #1FA463;*/
+button#edit {
+	border: medium none;
+	background-color: #FFFFFF;
+}
+button#delete {
+	border: medium none;
+	background-color: #FFFFFF;
+}
+div#app {
+	overflow-x: hidden;
+}
