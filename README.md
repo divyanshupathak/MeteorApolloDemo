@@ -1,2 +1,2 @@
 # MeteorApolloDemo
-Meteor with multiple db
+Meteor with multiple dbs
