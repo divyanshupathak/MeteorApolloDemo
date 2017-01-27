@@ -29,7 +29,7 @@ export class MessageForm extends Component {
 						<label htmlFor="mongodb"> &nbsp;MongoDB</label>
 					</div>
 					<div className="input-group">
-						<input ref={(c) => this.messageInput = c} className="form-control" placeholder="Enter Message" id="message" type="text" onChange={this.handleMessageChange} required />
+						<input ref={(c) => this.messageInput = c} className="form-control" placeholder="Enter Your Post here." id="message" type="text" onChange={this.handleMessageChange} required />
 						<span className="input-group-btn">
 							<button type="submit" className="btn btn-default" title="Please click here.">
 								<span className="glyphicon glyphicon-play"></span>
