@@ -19,6 +19,7 @@ const addMongoDBPost = gql`
     }
   }
 `;
+
 export default MessageFormContainer = graphql(addMySQlPost, {
   props: ({ mutate }) => ({
     MySQLsubmit: (content) => mutate({

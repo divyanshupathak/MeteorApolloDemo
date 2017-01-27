@@ -1,4 +1,4 @@
-import { Random } from 'meteor/random';
+/*import { Random } from 'meteor/random';
 import { Meteor } from 'meteor/meteor';
 import { Mongo } from 'meteor/mongo';
 
@@ -39,4 +39,4 @@ export const mongoResolver = {
 			PostsCollection.create(data)
 		}
 	}
-}
+}*/

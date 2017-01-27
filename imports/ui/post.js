@@ -46,7 +46,7 @@ export default class Post extends Component {
 	}
 }
 
-// Post requires props with a post attribute with a content attribute of type string
+// Post requires props with a post attribute with a content attribute of type string, deleteMongoDbPost and deleteSqlPost of type function
 Post.propTypes = {
 	post: PropTypes.shape({
 		content: PropTypes.string

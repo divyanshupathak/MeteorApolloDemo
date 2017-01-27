@@ -1,5 +1,5 @@
 import Sequelize from 'sequelize';
-import Mongoose from 'mongoose';
+// import Mongoose from 'mongoose';
 
 // create the connection for Sql
 const sqlDb = new Sequelize('apollodemo', "root", "DT@234", {
