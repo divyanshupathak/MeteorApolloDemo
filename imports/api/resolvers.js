@@ -32,7 +32,7 @@ export default resolvers = {
 		},
 		deletePost(_, args) {
 			console.log("deletePost ARGS >>>> ", args, args.id);
-			return Post.delete({where: args});
+			return Post.destroy({ where: { id: args.id } });
 		},
 		addMongoPost(_, args) {
 			// console.log("> ARGS = > ",args);
